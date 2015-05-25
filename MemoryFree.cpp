@@ -20,7 +20,7 @@ struct __freelist
 /* The head of the free list structure */
 extern struct __freelist *__flp;
 
-#include "MemoryFree.h";
+#include "MemoryFree.h"
 
 /* Calculates the size of the free list */
 int freeListSize()
